@@ -116,10 +116,10 @@ data = {
 }
 df = pd.DataFrame(data)
 
-|Column          |Meaning                    |Example              |Why use DataFrame                  | If not used              |
-|----------------|---------------------------|---------------------|-----------------------------------|--------------------------|
-|**study\_hours**|Hours studied              |`5` → studied 5 hours|Easy table handling                |Must manage lists manually|
-|**pass\_exam**  |Result (1 = pass, 0 = fail)|`1` → pass           |Pandas gives filter,sort,statistics|Complex manual handling   |
+|Column         |Meaning                |Example              |Why use DataFrame                  | If not used              |
+|---------------|-----------------------|---------------------|-----------------------------------|--------------------------|
+|**study_hours**|Hours studied          |`5` → studied 5 hours|Easy table handling                |Must manage lists manually|
+|**pass_exam**  |Result(1=pass,0 = fail)|`1` → pass           |Pandas gives filter,sort,statistics|Complex manual handling   |
 
  ## Step 3:Separate Features & Labels
 
