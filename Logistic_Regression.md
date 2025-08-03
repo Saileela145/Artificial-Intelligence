@@ -160,19 +160,19 @@ print(f"Probability of Passing: {predicted_prob[0][1]:.2f}")
 - Accuracy: 1.0
 - Predicted Class: [1]
 - Probability of Passing: 0.87
-
+**Test**
 - Accuracy = 100% (on test data)
 - Predicted class = Pass
 - Probability = 87% confidence
 
 ## 📌 Remember :
 
-pandas → Data handling (tables)
-scikit-learn (sklearn) → Machine Learning toolkit
-model_selection → Data splitting tools
-linear_model → Regression models (Logistic Regression here)
-metrics → Model evaluation tools
-Logistic Regression → For classification problems, outputs probabilities
-Always split data into train/test sets → Avoid overfitting
-Accuracy = correct predictions ÷ total predictions
-Probability = 87% confidence
+- pandas → Data handling (tables)
+- scikit-learn (sklearn) → Machine Learning toolkit
+- model_selection → Data splitting tools
+- linear_model → Regression models (Logistic Regression here)
+- metrics → Model evaluation tools
+- Logistic Regression → For classification problems, outputs probabilities
+- Always split data into train/test sets → Avoid overfitting
+- Accuracy = correct predictions ÷ total predictions
+- Probability = 87% confidence
