@@ -157,13 +157,13 @@ print(f"Probability of Passing: {predicted_prob[0][1]:.2f}")
 
 ### Example Output:
 
-Accuracy: 1.0
-Predicted Class: [1]
-Probability of Passing: 0.87
+- Accuracy: 1.0
+- Predicted Class: [1]
+- Probability of Passing: 0.87
 
-Accuracy = 100% (on test data)
-Predicted class = Pass
-Probability = 87% confidence
+- Accuracy = 100% (on test data)
+- Predicted class = Pass
+- Probability = 87% confidence
 
 ## 📌 Remember :
 
