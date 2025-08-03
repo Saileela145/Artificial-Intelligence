@@ -64,12 +64,12 @@
 
   # EXAMPLE :
 
-- # 🎯 Logistic Regression – Predict Student Pass/Fail
+ # 🎯 Logistic Regression – Predict Student Pass/Fail
 
 We want to predict whether a student will **pass** or **fail** based on how many hours they study.
 
 ## 📂 Step 1: Import Libraries
-```python
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
