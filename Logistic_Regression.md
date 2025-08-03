@@ -13,6 +13,7 @@
 **Formula:**
 \[
 \sigma(z) = \frac{1}{1 + e^{-z}}
+\--> σ(z) = 1 / (1 + e^(-z))
 \]
 
 - Squashes any number into the range **0 to 1**.
