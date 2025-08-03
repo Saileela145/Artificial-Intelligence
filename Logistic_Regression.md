@@ -68,8 +68,6 @@
 
 We want to predict whether a student will **pass** or **fail** based on how many hours they study.
 
----
-
 ## 📂 Step 1: Import Libraries
 ```python
 import pandas as pd
@@ -81,44 +79,32 @@ from sklearn.metrics import accuracy_score
 1. pandas
 
 What it is: A Python library for working with data tables (rows & columns).
-
 Why we use it: Makes it easy to store, clean, and manipulate data.
-
 When to use: Whenever you work with structured data (CSV files, Excel, or in-memory tables).
-
 What happens if not imported:
 You can’t use pd.DataFrame to make tables — you’d have to handle raw Python lists/dictionaries, which is messy.
 
 2. train_test_split (from sklearn.model_selection)
 
 What it is: A function from Scikit-learn (Machine Learning library).
-
 Why we use it: Splits your dataset into training (to teach the model) and testing (to check performance) sets.
-
 When to use: In almost every Machine Learning project to avoid overfitting.
-
 What happens if not imported:
 You’d have to manually split data, which is slow and error-prone.
 
 3. LogisticRegression (from sklearn.linear_model)
 
 What it is: The Logistic Regression model from Scikit-learn.
-
 Why we use it: To classify data into categories (0/1, Yes/No, etc.).
-
 When to use: Binary classification problems (pass/fail, spam/not spam, survive/die).
-
 What happens if not imported:
 You cannot create the model = LogisticRegression() object — Python will throw a NameError.
 
 4. accuracy_score (from sklearn.metrics)
 
 What it is: A function to measure the fraction of correct predictions.
-
 Why we use it: To see how accurate the model is.
-
 When to use: After making predictions to evaluate model performance.
-
 What happens if not imported:
 You can’t calculate accuracy without writing your own formula
 
@@ -130,10 +116,10 @@ data = {
 }
 df = pd.DataFrame(data)
 
-| Column           | Meaning                     | Example               | Why use DataFrame                           | If not used                |
-| ---------------- | --------------------------- | --------------------- | ------------------------------------------- | -------------------------- |
-| **study\_hours** | Hours studied               | `5` → studied 5 hours | Easy table handling                         | Must manage lists manually |
-| **pass\_exam**   | Result (1 = pass, 0 = fail) | `1` → pass            | Pandas gives filtering, sorting, statistics | Complex manual handling    |
+|Column          |Meaning                    |Example              |Why use DataFrame                  | If not used              |
+|----------------|---------------------------|---------------------|-----------------------------------|--------------------------|
+|**study\_hours**|Hours studied              |`5` → studied 5 hours|Easy table handling                |Must manage lists manually|
+|**pass\_exam**  |Result (1 = pass, 0 = fail)|`1` → pass           |Pandas gives filter,sort,statistics|Complex manual handling   |
 
  ## Step 3:Separate Features & Labels
 
